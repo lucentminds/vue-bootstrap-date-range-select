@@ -1,0 +1,6 @@
+// Silence false errors from vetur.
+{
+   "include": [
+      "./src/**/*"
+   ]
+}
