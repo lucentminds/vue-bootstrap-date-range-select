@@ -1,31 +1,31 @@
 <template>
    <div class="date-range-select__date-buttons">
       
-      <button class="btn btn-light btn-sm" @click="select_today">
+      <button class="btn btn-light btn-sm" type="button" @click="select_today">
          Today
       </button>
       
-      <button class="btn btn-light btn-sm" @click="select_yesterday">
+      <button class="btn btn-light btn-sm" type="button" @click="select_yesterday">
          Yesterday
       </button>
       
-      <button class="btn btn-light btn-sm" @click="select_2_days_ago">
+      <button class="btn btn-light btn-sm" type="button" @click="select_2_days_ago">
          2 days ago
       </button>
       
-      <button class="btn btn-light btn-sm" @click="select_week_2_date">
+      <button class="btn btn-light btn-sm" type="button" @click="select_week_2_date">
          Week to date
       </button>
       
-      <button class="btn btn-light btn-sm" @click="select_month_2_date">
+      <button class="btn btn-light btn-sm" type="button" @click="select_month_2_date">
          Month to date
       </button>
       
-      <button class="btn btn-light btn-sm" @click="select_last_week">
+      <button class="btn btn-light btn-sm" type="button" @click="select_last_week">
          Last week
       </button>
       
-      <button class="btn btn-light btn-sm" @click="select_last_month">
+      <button class="btn btn-light btn-sm" type="button" @click="select_last_month">
          Last month
       </button>
    </div>

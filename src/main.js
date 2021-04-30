@@ -1,4 +1,4 @@
-'use strict';
+'use strict'; // jshint ignore:line
 
 import Vue from 'vue';
 import Main from './Main.vue';

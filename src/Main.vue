@@ -28,10 +28,10 @@
       </div>
 
       <div class="date-range-select__submit-row">
-         <button class="btn btn-light" @click="on_cancel_click">
+         <button class="btn btn-light" type="button" @click="on_cancel_click">
             Cancel
          </button>
-         <button class="btn btn-primary" @click="on_submit_click">
+         <button class="btn btn-primary" type="button" @click="on_submit_click">
             Submit
          </button>
       </div>
@@ -116,10 +116,10 @@ export default {
 </script>
 
 <style scoped>
-.date-range-select
+/* .date-range-select
 {
    padding-bottom: 5em;
-}
+} */
 
 .date-range-select__date
 {
